@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 将数据库信息配置在外部文件中，使用占位符来代替具体信息的配置 -->
+    <context:property-placeholder location="classpath:config/db.properties"/>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!-- sqlSessionFactory 的配置，这是基于 MyBatis 的应用的核心 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 使用上面定义的数据源来进行配置 -->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 查找下面指定的类路径中的映射器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 定义 Mapper 配置器的位置 -->
+        <property name="basePackage" value="mapper"/>
+    </bean>
+
+    <!-- 之后要用到的两个 Bean -->
+    <bean id="exceptionService" class="service.impl.ExceptionServiceImpl"/>
+    <bean id="verifyCode" class="util.VerifyCode"/>
+</beans>
