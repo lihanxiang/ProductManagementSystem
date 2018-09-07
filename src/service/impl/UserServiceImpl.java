@@ -35,6 +35,11 @@ public class UserServiceImpl implements UserService {
         exceptionService.loginException(user, db_user);
     }
 
+    @Override
+    public String logout(User user) {
+        return user.getUsername();
+    }
+
     //显示用户信息
     @Override
     public User showInfo(String username) {
