@@ -78,6 +78,11 @@ public class UserController {
         return modelAndView;
     }
 
+    @RequestMapping("getMain")
+    public ModelAndView getMain(){
+        return new ModelAndView("user/main");
+    }
+
     //得到验证码，然后用于 jsp 文件的 <img> 标签的 src 属性中
     @RequestMapping("/getVerifyCode")
     public void setVerifyCode(HttpServletResponse response)
@@ -92,8 +97,10 @@ public class UserController {
 
     //登出账户，不需要具体用户名称，直接废除 session 就行
     @RequestMapping("/logout")
-    public ModelAndView logout(HttpServletRequest request){
-        request.getSession().invalidate();
+    public ModelAndView logout(HttpServletRequest request, User user){
+        if (request.getSession().getAttribute("username") == userService.logout(user)){
+            request.getSession().invalidate();
+        }
         return new ModelAndView("user/login").addObject("message", "已登出");
     }
 
