@@ -8,14 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1da7ab31-5239-46ab-98c9-359654173917" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementSystem.iml" afterPath="$PROJECT_DIR$/ProductManagementSystem.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/springMVC.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/springMVC.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/top.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/top.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
       <change beforePath="$PROJECT_DIR$/src/config/spring/springMVC.xml" afterPath="$PROJECT_DIR$/src/config/spring/springMVC.xml" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" afterPath="$PROJECT_DIR$/src/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/springMVC.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/springMVC.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LogManagement.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LogManagement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aspect/LogManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+            <state relative-caret-position="-997">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#671#672#0" expanded="true" />
@@ -67,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="top.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="666">
               <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
@@ -132,13 +127,13 @@
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/aspect/LoginDetection.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/config/spring/springMVC.xml" />
         <option value="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/aspect/LogManagement.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp" />
+        <option value="$PROJECT_DIR$/src/config/spring/springMVC.xml" />
+        <option value="$PROJECT_DIR$/src/aspect/LogManagement.java" />
       </list>
     </option>
   </component>
@@ -505,7 +500,7 @@
       <workItem from="1536219431794" duration="2545000" />
       <workItem from="1536245830348" duration="2019000" />
       <workItem from="1536276670892" duration="5855000" />
-      <workItem from="1536300818816" duration="2326000" />
+      <workItem from="1536300818816" duration="3624000" />
     </task>
     <servers />
   </component>
@@ -515,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37366000" />
+    <option name="totallyTimeSpent" value="38664000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -860,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/spring/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -910,24 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aspect/LogManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -946,9 +915,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="666">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/spring/springMVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aspect/LogManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

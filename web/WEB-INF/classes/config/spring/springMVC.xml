@@ -23,7 +23,7 @@
     <!-- 静态资源处理器 -->
     <mvc:resources mapping="/image/**" location="/image"/>
 
-    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <aop:aspectj-autoproxy/>
 
     <mvc:interceptors>
         <mvc:interceptor>
