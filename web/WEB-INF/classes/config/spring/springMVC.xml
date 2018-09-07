@@ -31,6 +31,7 @@
             <mvc:mapping path="/userStatus.action"/>
             <mvc:mapping path="/userInfo.action"/>
             <mvc:mapping path="/setUserInfo.action"/>
+            <mvc:mapping path="/getMain.action"/>
             <bean class="interceptor.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
