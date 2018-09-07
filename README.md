@@ -2,6 +2,8 @@
 
 ### v1.1 —— 控制台输出用户操作记录
 
+可通过[查看 tags](https://github.com/lihanxiang/ProductManagementSystem/tree/v1.0) 来显示先前版本
+
 #### 1. 功能截图
 
 ![捕获.PNG](https://upload-images.jianshu.io/upload_images/3426615-ed476dc77d6a8bd5.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
