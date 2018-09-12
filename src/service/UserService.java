@@ -11,4 +11,5 @@ public interface UserService {
     String getStatus(String username);
     void setUserInfo(User user) throws UserException;
     void verifyCode(String userCode, String verifyCode) throws UserException;
+    User findUserByName(String username);
 }
