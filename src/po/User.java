@@ -7,6 +7,7 @@ public class User {
     private String email;
     private String gender;
     private String description;
+    private String status;
     private String verifyCode;
 
     /*public User(String username, String password, String phone, String email){
@@ -49,6 +50,13 @@ public class User {
     }
     public String getGender() {
         return gender;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+    public String getStatus() {
+        return status;
     }
 
     public void setDescription(String description) {
