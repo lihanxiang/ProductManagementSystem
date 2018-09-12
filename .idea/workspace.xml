@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="703">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -507,7 +507,7 @@
       <workItem from="1536563792610" duration="12000" />
       <workItem from="1536563855952" duration="3245000" />
       <workItem from="1536708533680" duration="5230000" />
-      <workItem from="1536736486945" duration="531000" />
+      <workItem from="1536736486945" duration="558000" />
     </task>
     <servers />
   </component>
@@ -517,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48160000" />
+    <option name="totallyTimeSpent" value="48187000" />
   </component>
   <component name="TodoView" selected-index="1" />
   <component name="ToolWindowManager">
@@ -974,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
