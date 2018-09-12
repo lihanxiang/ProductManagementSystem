@@ -9,4 +9,5 @@ public interface UserMapper {
     User findUserByEmail(String email);
     User showInfo(String username);
     void setUserInfo(User user);
+    void setStatus(User user);
 }
