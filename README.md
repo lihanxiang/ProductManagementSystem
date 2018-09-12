@@ -2,9 +2,10 @@
 
 ### Version 1.2
 
-#### 1. 添加功能以及修护 Bug
+#### 查看历史版本
 
-可通过[查看 tags](https://github.com/lihanxiang/ProductManagementSystem/tree/v1.0) 来显示先前版本
+[v1.0](https://github.com/lihanxiang/ProductManagementSystem/tree/v1.0)
+[v1.1](https://github.com/lihanxiang/ProductManagementSystem/tree/v1.1)
 
 #### 1. 功能截图
 
