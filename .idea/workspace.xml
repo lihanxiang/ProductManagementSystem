@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da7ab31-5239-46ab-98c9-359654173917" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" />
       <change beforePath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/src/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/mapper/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/UserMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="2146">
               <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
               <folding>
                 <element signature="e#1620#1621#0" expanded="true" />
@@ -49,6 +42,16 @@
                 <element signature="e#2215#2216#0" expanded="true" />
                 <element signature="e#2273#2274#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,13 +111,13 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp" />
         <option value="$PROJECT_DIR$/src/config/spring/springMVC.xml" />
         <option value="$PROJECT_DIR$/src/aspect/LogManagement.java" />
-        <option value="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/po/User.java" />
         <option value="$PROJECT_DIR$/src/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
       </list>
     </option>
   </component>
@@ -131,7 +134,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -504,7 +507,7 @@
       <workItem from="1536563792610" duration="12000" />
       <workItem from="1536563855952" duration="3245000" />
       <workItem from="1536708533680" duration="5230000" />
-      <workItem from="1536736486945" duration="324000" />
+      <workItem from="1536736486945" duration="531000" />
     </task>
     <servers />
   </component>
@@ -514,11 +517,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47953000" />
+    <option name="totallyTimeSpent" value="48160000" />
   </component>
   <component name="TodoView" selected-index="1" />
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -859,15 +862,15 @@
         <state relative-caret-position="-34">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#1406#1407#0" expanded="false" />
+            <element signature="e#1496#1497#0" expanded="false" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1958#1959#0" expanded="false" />
+            <element signature="e#2065#2066#0" expanded="false" />
+            <element signature="e#2141#2142#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,14 +888,14 @@
         <state relative-caret-position="538">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1536567525644" expanded="true" signature="259:379" ph="INSERT INTO user... " />
-            <marker date="1536567525644" expanded="true" signature="475:530" ph="SELECT * FRO... user" />
-            <marker date="1536567525644" expanded="true" signature="631:678" ph="SELECT * FRO... user" />
-            <marker date="1536567525644" expanded="true" signature="780:821" ph="SELECT * FRO... user" />
-            <marker date="1536567525644" expanded="true" signature="923:964" ph="SELECT * FRO... user" />
-            <marker date="1536567525644" expanded="true" signature="1042:1187" ph="UPDATE user... " />
-            <marker date="1536567525644" expanded="true" signature="1263:1297" ph="UPDATE user... " />
-            <marker date="1536567525644" expanded="true" signature="1263:1334" ph="UPDATE user... " />
+            <marker date="1536736833540" expanded="true" signature="259:379" ph="INSERT INTO user... " />
+            <marker date="1536736833540" expanded="true" signature="475:530" ph="SELECT * FRO... user" />
+            <marker date="1536736833540" expanded="true" signature="631:678" ph="SELECT * FRO... user" />
+            <marker date="1536736833540" expanded="true" signature="780:821" ph="SELECT * FRO... user" />
+            <marker date="1536736833540" expanded="true" signature="923:964" ph="SELECT * FRO... user" />
+            <marker date="1536736833540" expanded="true" signature="1042:1187" ph="UPDATE user... " />
+            <marker date="1536736833540" expanded="true" signature="1263:1297" ph="UPDATE user... " />
+            <marker date="1536736833540" expanded="true" signature="1263:1334" ph="UPDATE user... " />
           </folding>
         </state>
       </provider>
@@ -909,14 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -963,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="2146">
           <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
           <folding>
             <element signature="e#1620#1621#0" expanded="true" />
@@ -973,6 +968,14 @@
             <element signature="e#2215#2216#0" expanded="true" />
             <element signature="e#2273#2274#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
