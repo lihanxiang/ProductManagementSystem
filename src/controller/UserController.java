@@ -64,8 +64,8 @@ public class UserController {
     public ModelAndView login(User user, HttpServletRequest request) {
         ModelAndView modelAndView = new ModelAndView("user/main");
         try {
-            userService.login(user);
             userService.verifyCode(request.getParameter("verifyCode"), verifyCode.getText());
+            userService.login(user);
             //创建 Session，保持登录状态
             request.getSession().setAttribute("username", user.getUsername());
             //在模型中添加对象，用于 JSP 读取
@@ -97,10 +97,10 @@ public class UserController {
 
     //登出账户，不需要具体用户名称，直接废除 session 就行
     @RequestMapping("/logout")
-    public ModelAndView logout(HttpServletRequest request, User user){
-        if (request.getSession().getAttribute("username") == userService.logout(user)){
-            request.getSession().invalidate();
-        }
+    public ModelAndView logout(HttpServletRequest request){
+        userService.logout(userService.findUserByName(
+                (String)request.getSession().getAttribute("username")));
+        request.getSession().invalidate();
         return new ModelAndView("user/login").addObject("message", "已登出");
     }
 
