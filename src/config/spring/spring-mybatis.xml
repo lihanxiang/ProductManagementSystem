@@ -20,7 +20,7 @@
         <property name="username" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
     </bean>
-    
+
     <!-- sqlSessionFactory 的配置，这是基于 MyBatis 的应用的核心 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 使用上面定义的数据源来进行配置 -->
