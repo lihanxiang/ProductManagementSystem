@@ -15,19 +15,19 @@
                 barcode LIKE '%${barcode}'
             </if>
             <if test="name != null and name != ''">
-                name = '%${name}%'
+                AND name LIKE '%${name}%'
             </if>
             <if test="units != null and units != ''">
-                units = #{units}
+                AND units = #{units}
             </if>
             <if test="purchaseprice != null and purchaseprice != ''">
-                purchaseprice LIKE #{purchaseprice}
+                AND purchaseprice LIKE #{purchaseprice}
             </if>
             <if test="saleprice != null and saleprice != ''">
-                saleprice LIKE #{saleprice}
+                AND saleprice LIKE #{saleprice}
             </if>
             <if test="inventory != null and inventory != ''">
-                inventory LIKE #{inventory}
+                AND inventory LIKE #{inventory}
             </if>
         </where>
     </select>

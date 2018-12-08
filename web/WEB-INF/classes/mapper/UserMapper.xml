@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.UserMapper">
     <insert id="addUser" parameterType="po.User">
-        INSERT INTO user(username,password,phone,email, status)
-        VALUES (#{username}, #{password}, #{phone}, #{email}, "0");
+        INSERT INTO user(username,password,phone,email, salt)
+        VALUES (#{username}, #{password}, #{phone}, #{email}, #{salt});
     </insert>
 
     <select id="showInfo" parameterType="String" resultType="po.User">
@@ -28,11 +28,6 @@
     <update id="setUserInfo" parameterType="po.User">
         UPDATE user SET phone = #{phone}, email = #{email},
         gender = #{gender}, description = #{description}
-        WHERE username = #{username}
-    </update>
-
-    <update id="setStatus" parameterType="po.User">
-        UPDATE user SET status = #{status}
         WHERE username = #{username}
     </update>
 </mapper>

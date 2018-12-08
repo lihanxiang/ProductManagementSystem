@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProductManagementSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1da7ab31-5239-46ab-98c9-359654173917" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ProductManagementSystem_war_exploded2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pm.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/shiro-all-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/slf4j-api-1.8.0-beta2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/config/spring/spring-shiro.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shiro/CustomizeRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/util/Encryption.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/user/head.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProductManagementSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ProductManagementSystem_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementSystem.iml" afterPath="$PROJECT_DIR$/ProductManagementSystem.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/db.properties" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/db.properties" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/spring-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/config/spring/springMVC.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/CustomizeProductMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/CustomizeProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/frame.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/frame.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/message.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/message.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/productsList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/productsList.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/query.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/query.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/top.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/product/top.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/addUser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/addUser.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/addUserSuccessful.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/addUserSuccessful.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/userInfo.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/userInfo.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/jsp/user/userStatus.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/add.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/addUser.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/background.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/content.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/edit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/query.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/css/top.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/image/background.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagementSystem_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/sql.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/aspect/LogManagement.java" afterPath="$PROJECT_DIR$/src/aspect/LogManagement.java" />
+      <change beforePath="$PROJECT_DIR$/src/config/db.properties" afterPath="$PROJECT_DIR$/src/config/db.properties" />
+      <change beforePath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/src/config/spring/springMVC.xml" afterPath="$PROJECT_DIR$/src/config/spring/spring-mvc.xml" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/controller/ProductController.java" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" afterPath="$PROJECT_DIR$/src/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/exception/UserException.java" afterPath="$PROJECT_DIR$/src/exception/UserException.java" />
+      <change beforePath="$PROJECT_DIR$/src/filter/LoginFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/interceptor/LoginInterceptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/CustomizeProductMapper.xml" afterPath="$PROJECT_DIR$/src/mapper/CustomizeProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/mapper/UserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/po/User.java" afterPath="$PROJECT_DIR$/src/po/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/service/ExceptionService.java" afterPath="$PROJECT_DIR$/src/service/ExceptionService.java" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" afterPath="$PROJECT_DIR$/src/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/ExceptionServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/ExceptionServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/util/VerifyCode.java" afterPath="$PROJECT_DIR$/src/util/VerifyCode.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/db.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/config/db.properties" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/spring-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/springMVC.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/CustomizeProductMapper.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/CustomizeProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/edit.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/edit.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/frame.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/main.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/message.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/message.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/productsList.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/productsList.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/query.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/query.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/addUser.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/user/addUser.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/addUserSuccessful.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/main.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/user/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/userInfo.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/user/userInfo.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/user/userStatus.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/css/add.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/addUser.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/background.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/content.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/edit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/query.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/top.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/image/background.jpg" afterPath="$PROJECT_DIR$/web/img/pm.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="userInfo.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/userInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productsList.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/productsList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="59" column="10" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../SpringiA4_SourceCode/Chapter_08/SpringPizza" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sql.txt" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/userStatus.jsp" />
+        <option value="$PROJECT_DIR$/src/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/aspect/LoginDetection.java" />
+        <option value="$PROJECT_DIR$/src/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/config/spring/springMVC.xml" />
+        <option value="$PROJECT_DIR$/src/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/config/spring/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/service/ExceptionService.java" />
+        <option value="$PROJECT_DIR$/src/config/db.properties" />
+        <option value="$PROJECT_DIR$/src/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/aspect/LogManagement.java" />
+        <option value="$PROJECT_DIR$/web/css/addUser.css" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
+        <option value="$PROJECT_DIR$/web/css/top.css" />
+        <option value="$PROJECT_DIR$/src/po/User.java" />
+        <option value="$PROJECT_DIR$/src/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/exception/UserException.java" />
+        <option value="$PROJECT_DIR$/src/service/impl/ExceptionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/query.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/message.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/add.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/frame.jsp" />
+        <option value="$PROJECT_DIR$/web/css/background.css" />
+        <option value="$PROJECT_DIR$/src/mapper/CustomizeProductMapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/addUserSuccessful.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp" />
+        <option value="$PROJECT_DIR$/src/config/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/util/Encryption.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/util/VerifyCode.java" />
+        <option value="$PROJECT_DIR$/src/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/shiro/CustomizeRealm.java" />
+        <option value="$PROJECT_DIR$/src/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/config/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/addUser.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/productsList.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="973" />
+    <option name="width" value="954" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProductManagementSystem" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProductManagementSystem" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProductManagementSystem" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ProductManagementSystem" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ProductManagementSystem" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProductManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProductManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="productmanagementsystem" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem\web\WEB-INF\jsp\product" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interceptor" />
+      <recent name="util" />
+      <recent name="controller" />
+      <recent name="po" />
+      <recent name="exception" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem\web\WEB-INF\jsp\user" />
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem\lib" />
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem" />
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem\web\css" />
+      <recent name="C:\Users\94545\Desktop\Developer Folder\Project Folder\ProductManagementSystem\src\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ProductManagementSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ProductManagementSystem_6" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56585" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ProductManagementSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1da7ab31-5239-46ab-98c9-359654173917" name="Default" comment="" />
+      <created>1535724175381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535724175381</updated>
+      <workItem from="1535724177538" duration="1390000" />
+      <workItem from="1535764644674" duration="2742000" />
+      <workItem from="1535769339259" duration="2145000" />
+      <workItem from="1535780372476" duration="771000" />
+      <workItem from="1535781367604" duration="420000" />
+      <workItem from="1535939362220" duration="3315000" />
+      <workItem from="1535962940971" duration="1809000" />
+      <workItem from="1535964844424" duration="228000" />
+      <workItem from="1535975982049" duration="3927000" />
+      <workItem from="1536020004237" duration="2973000" />
+      <workItem from="1536138828738" duration="1168000" />
+      <workItem from="1536140002768" duration="1529000" />
+      <workItem from="1536192582935" duration="2204000" />
+      <workItem from="1536219431794" duration="2545000" />
+      <workItem from="1536245830348" duration="2019000" />
+      <workItem from="1536276670892" duration="5855000" />
+      <workItem from="1536300818816" duration="4102000" />
+      <workItem from="1536563792610" duration="12000" />
+      <workItem from="1536563855952" duration="3245000" />
+      <workItem from="1536708533680" duration="5230000" />
+      <workItem from="1536736486945" duration="558000" />
+      <workItem from="1536737226109" duration="4065000" />
+      <workItem from="1536822268768" duration="596000" />
+      <workItem from="1536922676810" duration="686000" />
+      <workItem from="1537236610558" duration="1047000" />
+      <workItem from="1537259931572" duration="100000" />
+      <workItem from="1537419964078" duration="519000" />
+      <workItem from="1537950568772" duration="575000" />
+      <workItem from="1537954609301" duration="283000" />
+      <workItem from="1537955313567" duration="609000" />
+      <workItem from="1537962345788" duration="16000" />
+      <workItem from="1537962399382" duration="21000" />
+      <workItem from="1537962757848" duration="834000" />
+      <workItem from="1537965607382" duration="29000" />
+      <workItem from="1537965701138" duration="911000" />
+      <workItem from="1537968337216" duration="606000" />
+      <workItem from="1538181592802" duration="1179000" />
+      <workItem from="1538184167244" duration="1049000" />
+      <workItem from="1538358379398" duration="279000" />
+      <workItem from="1539258735950" duration="1729000" />
+      <workItem from="1539260474275" duration="446000" />
+      <workItem from="1539260926446" duration="138000" />
+      <workItem from="1539261067301" duration="722000" />
+      <workItem from="1539264552783" duration="933000" />
+      <workItem from="1539265489683" duration="386000" />
+      <workItem from="1539297952149" duration="6352000" />
+      <workItem from="1539309189579" duration="2858000" />
+      <workItem from="1539321051347" duration="37000" />
+      <workItem from="1539329784060" duration="1490000" />
+      <workItem from="1539527109581" duration="1486000" />
+      <workItem from="1539561446041" duration="747000" />
+      <workItem from="1539562727221" duration="1288000" />
+      <workItem from="1539564833929" duration="609000" />
+      <workItem from="1539565471484" duration="1000" />
+      <workItem from="1539565489311" duration="353000" />
+      <workItem from="1539574753221" duration="406000" />
+      <workItem from="1539846313153" duration="64000" />
+      <workItem from="1539850103780" duration="222000" />
+      <workItem from="1539850811916" duration="428000" />
+      <workItem from="1539851361414" duration="46000" />
+      <workItem from="1539851644555" duration="242000" />
+      <workItem from="1539915855171" duration="1305000" />
+      <workItem from="1540999946984" duration="67000" />
+      <workItem from="1541123248191" duration="320000" />
+      <workItem from="1541677428991" duration="4289000" />
+      <workItem from="1541688226511" duration="4926000" />
+      <workItem from="1541719325229" duration="8041000" />
+      <workItem from="1541906233590" duration="12497000" />
+      <workItem from="1542090386669" duration="4603000" />
+      <workItem from="1542098336877" duration="909000" />
+      <workItem from="1542102488788" duration="275000" />
+      <workItem from="1542103104139" duration="607000" />
+      <workItem from="1542124550172" duration="595000" />
+      <workItem from="1542171930882" duration="703000" />
+      <workItem from="1542355245854" duration="6447000" />
+      <workItem from="1542428100955" duration="595000" />
+      <workItem from="1542634420283" duration="2180000" />
+      <workItem from="1542694793806" duration="527000" />
+      <workItem from="1542695329851" duration="288000" />
+      <workItem from="1542780448581" duration="3231000" />
+      <workItem from="1542794175822" duration="741000" />
+      <workItem from="1542815257642" duration="366000" />
+      <workItem from="1542980675275" duration="1856000" />
+      <workItem from="1543124713573" duration="1222000" />
+      <workItem from="1543145576590" duration="791000" />
+      <workItem from="1543200292123" duration="582000" />
+      <workItem from="1543309702399" duration="618000" />
+      <workItem from="1543312102829" duration="75000" />
+      <workItem from="1543312287532" duration="613000" />
+      <workItem from="1543323114986" duration="536000" />
+      <workItem from="1543397428102" duration="4000" />
+      <workItem from="1543466893175" duration="556000" />
+      <workItem from="1543475828449" duration="638000" />
+      <workItem from="1543538114297" duration="1971000" />
+      <workItem from="1543559468603" duration="312000" />
+      <workItem from="1543632315478" duration="228000" />
+      <workItem from="1543651035325" duration="2254000" />
+      <workItem from="1543664213477" duration="6527000" />
+      <workItem from="1543710051322" duration="5797000" />
+      <workItem from="1543796637478" duration="759000" />
+      <workItem from="1543797634973" duration="170000" />
+      <workItem from="1543801884906" duration="664000" />
+      <workItem from="1543894892798" duration="604000" />
+      <workItem from="1544091315919" duration="2129000" />
+      <workItem from="1544100459470" duration="1525000" />
+      <workItem from="1544143414991" duration="1988000" />
+      <workItem from="1544147313599" duration="660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_test - 2018.09.06 at 08h 37m 39s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserByName - 2018.09.26 at 20h 21m 16s.xml">
+      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="169165000" />
+  </component>
+  <component name="TodoView" selected-index="1" />
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41022852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39520332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39520332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41428572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34682712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Program Files/Tomcat9/webapps/css/top.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/top.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/rdfa.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="251" column="16" lean-forward="false" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/add.css" />
+    <entry file="file://$PROJECT_DIR$/src/exception/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/po/CustomizeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/po/ProductExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3120">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aspect/LogManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/CustomizeProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/addUser.css" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/query.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=ProductManagementSystem">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=ProductManagementSystem</OriginalElement>
+          <nodes>
+            <node x="" y="">module=ProductManagementSystem</node>
+            <node x="" y="">fileset=ProductManagementSystem/MVC application context</node>
+            <node x="" y="">filePath=C:/Users/94545/Desktop/Developer Folder/Project Folder/ProductManagementSystem/src/config/spring/spring-mybatis.xml</node>
+            <node x="" y="">fileset=ProductManagementSystem/Spring Application Context</node>
+            <node x="" y="">filePath=C:/Users/94545/Desktop/Developer Folder/Project Folder/ProductManagementSystem/src/config/spring/spring-shiro.xml</node>
+            <node x="" y="">fileset=ProductManagementSystem/MVC dispatcher servlet context</node>
+            <node x="" y="">filePath=C:/Users/94545/Desktop/Developer Folder/Project Folder/ProductManagementSystem/src/config/spring/spring-mvc.xml</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="343.0" y="75.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/src/util/VerifyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding>
+            <marker date="1542355649340" expanded="true" signature="261:385" ph="INSERT INTO user... " />
+            <marker date="1542355649340" expanded="true" signature="481:536" ph="SELECT * FRO... user" />
+            <marker date="1542355649340" expanded="true" signature="637:684" ph="SELECT * FRO... user" />
+            <marker date="1542355649340" expanded="true" signature="786:827" ph="SELECT * FRO... user" />
+            <marker date="1542355649340" expanded="true" signature="929:970" ph="SELECT * FRO... user" />
+            <marker date="1542355649340" expanded="true" signature="1048:1193" ph="UPDATE user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/impl/ExceptionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/shiro-all-1.2.1.jar!/org/apache/shiro/crypto/hash/SimpleHash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shiro/CustomizeRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/spring/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/CustomizeProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <marker date="1542794748604" expanded="true" signature="288:309" ph="SELECT * FRO... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ExceptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+          <folding>
+            <marker date="1530677950525" expanded="true" signature="3635:3738" ph="select from product" />
+            <marker date="1530677950525" expanded="true" signature="3823:3880" ph="delete from product... " />
+            <marker date="1530677950525" expanded="true" signature="3963:3982" ph="delete from product... " />
+            <marker date="1530677950525" expanded="true" signature="4141:4467" ph="insert into product... " />
+            <marker date="1530677950525" expanded="true" signature="5831:5859" ph="select count... product" />
+            <marker date="1530677950525" expanded="true" signature="6984:7363" ph="update product... " />
+            <marker date="1530677950525" expanded="true" signature="7553:8199" ph="update product... " />
+            <marker date="1530677950525" expanded="true" signature="8278:8611" ph="update product... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/background.css" />
+    <entry file="file://$PROJECT_DIR$/src/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/po/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/frame.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="93" lean-forward="true" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="26" column="105" lean-forward="true" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/addUserSuccessful.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/addUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/productsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="59" column="10" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>pm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|ProductManagementSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

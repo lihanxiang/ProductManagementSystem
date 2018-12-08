@@ -39,7 +39,6 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <!-- 之后要用到的两个 Bean -->
-    <bean id="exceptionService" class="service.impl.ExceptionServiceImpl"/>
+    <!-- 之后要用到的 Bean -->
     <bean id="verifyCode" class="util.VerifyCode"/>
 </beans>

@@ -8,43 +8,49 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="../../../css/content.css">
-    <title>Product List</title>
+    <title>商品列表</title>
+    <c:import url="head.jsp"/>
 </head>
 <body>
-<form method="post">
-    商品列表：
-    <table width="100%" border=1>
-        <tr>
-            <td>Barcode</td>
-            <td>Name</td>
-            <td>Units</td>
-            <td>PurchasePrice</td>
-            <td>SalePrice</td>
-            <td>Inventory</td>
-        </tr>
-        <c:forEach items="${productList }" var="item">
+    <div id="table">
+        <table class="table table-hover">
+            <caption>Product List</caption>
+            <thead>
             <tr>
-                <td>${item.barcode }</td>
-                <td>${item.name }</td>
-                <td>${item.units }</td>
-                <td>${item.purchaseprice }</td>
-                <td>${item.saleprice }</td>
-                <td>${item.inventory }</td>
-                <td>
-                    <a href="${pageContext.request.contextPath}/product/preEdit.action?id=${item.id}">Edit</a>
-                    <a href="${pageContext.request.contextPath}/product/deleteProduct.action?id=${item.id}">Delete</a>
-                </td>
+                <th>Barcode</th>
+                <th>Name</th>
+                <th>Units</th>
+                <th>PurchasePrice</th>
+                <th>SalePrice</th>
+                <th>Inventory</th>
             </tr>
-        </c:forEach>
-
-    </table>
-</form>
+            </thead>
+            <tbody>
+            <c:forEach items="${productList}" var="item">
+                <tr>
+                    <td>${item.barcode }</td>
+                    <td>${item.name }</td>
+                    <td>${item.units }</td>
+                    <td>${item.purchaseprice }</td>
+                    <td>${item.saleprice }</td>
+                    <td>${item.inventory }</td>
+                    <td>
+                        <a class="btn btn-default" role="button"
+                           href="${pageContext.request.contextPath}/product/${item.id}/pre-edit">
+                            Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-default" role="button"
+                           href="${pageContext.request.contextPath}/product/${item.id}/delete">
+                            Delete</a>
+                    </td>
+                </tr>
+            </c:forEach>
+            </tbody>
+        </table>
+    </div>
 </body>
-
 </html>

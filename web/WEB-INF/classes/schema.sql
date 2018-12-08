@@ -1,0 +1,22 @@
+CREATE DATABASE product;
+USE product;
+CREATE TABLE user (
+    id INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(20) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    gender VARCHAR(10),
+    description VARCHAR(200),
+    salt VARCHAR(50)
+)  ENGINE=INNODB , CHARSET=UTF8 , AUTO_INCREMENT=1;
+
+CREATE TABLE product (
+    id VARCHAR(50) NOT NULL PRIMARY KEY,
+    barcode VARCHAR(13) NOT NULL,
+    name VARCHAR(40) NOT NULL,
+    units VARCHAR(5) NOT NULL,
+    purchasePrice VARCHAR(10) NOT NULL,
+    salePrice VARCHAR(10) NOT NULL,
+    inventory VARCHAR(20) NOT NULL
+)  ENGINE=INNODB , CHARSET=UTF8;

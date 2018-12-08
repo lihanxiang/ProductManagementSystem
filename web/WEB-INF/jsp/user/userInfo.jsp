@@ -9,23 +9,36 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>UserInfo</title>
-    <link type="text/css" rel="stylesheet" href="../../../css/login.css">
+    <title>用户信息</title>
+    <c:import url="head.jsp"/>
 </head>
 <body>
-<form action="setUserInfo.action" method="post">
-    <input type="hidden" name="method" value="login">
-    <div id="login">
-        <h1 style="text-align: center ">用户信息</h1>
-        <p style="text-align: center">${message}</p>
-        <input type="text" name="username" placeholder="姓名（无法更改）" value="${user.username}">
-        <input type="text" name="phone" placeholder="手机号码" value="${user.phone}"/><br>
-        <input type="text" name="email" placeholder="邮箱" value="${user.email}"/><br>
-        <input type="text" name="gender" placeholder="性别" value="${user.gender}">
-        <input type="text" name="description" placeholder="描述" value="${user.description}"/><br>
-        <input class="button" type="submit" value="保存">
-        <input class="button" type="reset" value="重置">
-    </div>
-</form>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="${pageContext.request.contextPath}/user/main">Back to Main Page</a>
+            </div>
+        </div>
+    </nav>
+    <form action="${pageContext.request.contextPath}/user/set-info" method="post">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="用户名" name="username" value="${user.username}">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="手机号码" name="phone" value="${user.phone}">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="邮箱" name="email" value="${user.email}">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="性别" name="gender" value="${user.gender}">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="个人简介" name="description" value="${user.description}">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Post</button>
+    </form>
 </body>
 </html>

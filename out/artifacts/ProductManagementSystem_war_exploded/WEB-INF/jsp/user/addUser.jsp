@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: 94545
@@ -8,29 +9,67 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="../../../css/addUser.css">
+    <title>添加用户</title>
+    <c:import url="head.jsp"/>
     <script type="text/javascript">
         function RefreshCode(obj){
             obj.src = obj.src + "?code=" + Math.random();
         }
     </script>
+    <style>
+        body{
+            background-color: #CDC9C9;
+        }
+        .container{
+            float: none;
+            display: block;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-center-block{
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #DCDCDC;
+            border-radius: 20px;
+        }
+    </style>
+
 </head>
 <body>
-<form action="addUser.action" method="post">
-    <input type="hidden" name="method" value="register">
-    <div id="register">
-        <h1 style="text-align: center ">注册</h1>
-        <p align="center" style="color:red;font-weight: 800">${message}</p>
-        <input type="text" name="username" placeholder="用户名" value="${user.username}"/><br>
-        <input type="password" name="password" placeholder="密  码" value="${user.password}"/><br>
-        <input type="text" name="phone" placeholder="手机号码" value="${user.phone}"/><br>
-        <input type="text" name="email" placeholder="邮箱" value="${user.email}"/><br>
-        <input type="text" name="verifyCode" placeholder="验证码" size="10"/><br>
-        <img id="verifyCode" src="getVerifyCode.action" title="点击更换" onclick="RefreshCode(this)"/><br>
-        <input class="button" style="text-align: center" type="submit" value="注册">
-        <input class="button" style="text-align: center" type="reset" value="重置">
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="row myCenter">
+            <div class="col-xs-6 col-md-4 col-center-block">
+                <br><br>
+                <form class="form-signin" action="${pageContext.request.contextPath}/user/add" method="post">
+                    <h2 class="form-signin-heading" style="text-align: center">Sign up</h2><br>
+                    <h3 class="form-signin-heading" style="text-align: center">${message}</h3>
+                    <label for="username" class="sr-only">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Username"
+                           required value="${user.username}"><br>
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Password"
+                           required value="${user.password}"><br>
+                    <label for="verifyCode" class="sr-only">Password</label>
+                    <label for="phone" class="sr-only">Username</label>
+                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone"
+                           required value="${user.phone}"><br>
+                    <label for="email" class="sr-only">Username</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                           required value="${user.email}"><br>
+                    <input type="text" id="verifyCode" name="verifyCode" class="form-control" placeholder="Verify Code"/>
+                    <img src="${pageContext.request.contextPath}/user/verify_code" title="点击更换" onclick="RefreshCode(this)"
+                         class="img-thumbnail"/>
+                    <br>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+                    <br>
+                </form>
+            </div>
+        </div>
     </div>
-</form>
 </body>
 </html>
